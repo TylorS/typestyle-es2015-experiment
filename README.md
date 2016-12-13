@@ -2,13 +2,23 @@
 
 > Module augmentation experiment with es2015
 
-<!-- Write a short summary about your library here -->
+## Try it out
 
-## Let me have it!
 ```sh
-npm install --save typestyle-es2015-experiment
+# get es2015 built typestyle
+git clone https://github.com/TylorS/typestyle
+cd typestyle
+git checkout tylors/feat/add-es2015-builds
+npm install
+npm run build
+npm link # link the thing
+
+cd ../
+
+git clone https://github.com/TylorS/typestyle-es2015-experiment
+cd typestyle-es2015-experiment
+npm install
+npm link typestyle
+npm run build
+# prosper :D
 ```
-
-## API
-
-<!-- Describe your API here -->
